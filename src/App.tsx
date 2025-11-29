@@ -16,7 +16,7 @@ function App() {
     <>
       <header className="p-2 md:p-5 bg-blue-950 flex items-center justify-center md:space-x-32 space-x-5">
         <h1 className="capitalize font-bold  md:text-2xl text-xs text-center text-white">Contador de Calorías y Ejercicios</h1>
-        <button onClick={() => dispatch({ type: "clear-app" })} className={`border text-white capitalize font-bold md:p-3 p-1 md:text-xl text-sm rounded-md ${state.activities.length ? "hover:bg-blue-600 hover:shadow hover:shadow-white hover:shadow-md duration-500" : "text-blue-950 border-none"}`} disabled={state.activities.length == 0}>reiniciar app</button>
+        <button onClick={() => dispatch({ type: "clear-app" })} className={`border text-white capitalize font-bold md:p-3 p-1 md:text-xl text-sm rounded-md ${state.activities.length ? "hover:bg-blue-700 hover:shadow hover:shadow-white hover:shadow-md duration-500" : "text-blue-950 border-none"}`} disabled={state.activities.length == 0}>reiniciar app</button>
       </header>
 
       <main className="justify-center flex md:p-10  p-8 md:py-24 py-15 bg-blue-600">
