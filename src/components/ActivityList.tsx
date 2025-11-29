@@ -25,7 +25,7 @@ const ActivityList = () => {
             {activities.map(item => (
                 <div key={item.id} className="sahdow shadow-lg border shadow-blue-950 md:p-5 p-1.5 capitalize font-bold flex justify-between items-center">
                     <div>
-                        <span className={`md:text-2xl text-lg capitalize border border-2  py-1 px-2 text-white ${item.categorias == 1 ? "bg-green-500" : "bg-red-500"}`} >{validationCategoris(item.categorias)}</span>
+                        <span className={`md:text-2xl text-lg capitalize border border-2  py-1 px-2 text-white ${item.categorias == 1 ? "bg-green-500" : "bg-red-600"}`} >{validationCategoris(item.categorias)}</span>
                         <p className="capitalize font-bold md:text-2xl text-lg  px-1.5 md:py-2">{item.actividad}</p>
                         <p className="px-1.5 md:text-xl text-base">{item.calorias}</p>
                     </div>
