@@ -22,7 +22,7 @@ const CalorisPanel = () => {
         <div className="flex items-center justify-between">
             <div className="text-center">
                 <p className="font-black text-green-300 md:text-4xl text-xl">{caloriasConsumidas}</p>
-                <span className="font-bold capitalize text-green-300 md:text-3xl text-base">consumidas</span>
+                <span className="font-bold capitalize text-green-400 md:text-3xl text-base">consumidas</span>
             </div>
 
             <div className="text-center">
