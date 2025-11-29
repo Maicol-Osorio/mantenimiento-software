@@ -73,7 +73,7 @@ const Form = () => {
                 <input type="number" name="calorias" id="calorias" className="border border-black md:p-1.5 p-1 capitalize" value={activity.calorias} onChange={handleChange} />
             </div>
 
-            <button type="submit" className="border border-2 w-full p-2 bg-blue-800 duration-700 text-white capitalize font-bold rounded-md hover:bg-blue-950 cursor-pointer disabled:opacity-45" disabled={!activityEmpty()}>{activity.categorias === 1 ? "guardar comidas" : "guardar ejercicio"}</button>
+            <button type="submit" className="border border-2 w-full p-2 bg-blue-900 duration-700 text-white capitalize font-bold rounded-md hover:bg-blue-950 cursor-pointer disabled:opacity-45" disabled={!activityEmpty()}>{activity.categorias === 1 ? "guardar comidas" : "guardar ejercicio"}</button>
 
         </form>
     )
